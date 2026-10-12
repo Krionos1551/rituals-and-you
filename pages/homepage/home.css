@@ -1,0 +1,244 @@
+.headerbox {
+  display: flex;
+  flex-direction: column;
+  background-color: darkred;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.logopic {
+  display: flex;
+  align-self: flex-start;
+  height: 50px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.awesome {
+  font-size: 40px;
+  color:wheat
+}
+
+.headerlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(88, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 5px;
+}
+
+.linktext {
+  text-decoration: none;
+  color: wheat;
+  margin: 10px;
+}
+
+.subtext {
+  color: lightgray;
+}
+
+.introbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intropicbox{
+  margin: 10px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.example {
+  height: 150px;
+  width: 150px;
+}
+
+.introtext{
+padding: 50px;
+padding-top: 0px;
+}
+
+
+.text {
+  color: wheat;
+  text-align: center;
+}
+
+.information{
+background-color: rgb(0, 11, 34);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.cardbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 400px;
+  margin: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.cardpic {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border: 5px solid maroon;
+  border-radius: 8px;
+}
+
+.cardtext {
+  margin: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.topcardtext {
+  margin: 3px;
+}
+
+.cursebox {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  
+  justify-self: flex-end;
+}
+
+.cursecard {
+  display: flex;
+  flex-grow: 1;
+}
+
+.cursecardpic {
+  height: 15px;
+  width: 15px;
+}
+
+.tips {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tipsbox {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.tip {
+  font-style: italic;
+  font-size: 25px;
+  border: 2px solid black;  
+  border-radius: 8px;
+  font-size: medium;
+}
+
+.quotesorce {
+  font-weight: bold;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.holderbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ 
+}
+
+.actionbox {
+  display: flex;
+  background-color: rgb(0, 11, 34);
+  justify-content: center;
+}
+
+.clickbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(0, 49, 139);
+  border-radius: 8px;
+  margin: 50px;
+}
+
+.clicktext {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.smalltext {
+  font-size: 20px;
+}
+
+.starthere {
+  background-color: red ;
+  border-radius: 8px;
+  color: wheat;
+  height: 40px;
+  width: 100px;
+}
+
+.footer {
+  background-color: maroon;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 5px;
+}
+
+.reflink {
+text-align: center;
+}
